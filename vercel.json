@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "/**/*",
+      "src": "deploy/zyntrix-site/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/deploy/zyntrix-site/index.html"
     }
   ]
 }
